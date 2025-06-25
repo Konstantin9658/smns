@@ -17,9 +17,9 @@ export const Env = () => {
       "ZYX",
       true
     );
-    scene.environmentRotation.x = x + THREE.MathUtils.degToRad(267.5);
+    scene.environmentRotation.x = x ;
     scene.environmentRotation.y = y + THREE.MathUtils.degToRad(-2);
-    scene.environmentRotation.z = z;
+    scene.environmentRotation.z = z + THREE.MathUtils.degToRad(267.5);
   });
 
   return <Environment files={env} environmentIntensity={1.6} />;
