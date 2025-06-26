@@ -17,10 +17,10 @@ export const Env = () => {
       "ZYX",
       true
     );
-    scene.environmentRotation.x = x ;
-    scene.environmentRotation.y = y + THREE.MathUtils.degToRad(-2);
-    scene.environmentRotation.z = z + THREE.MathUtils.degToRad(267.5);
+    scene.environmentRotation.x = x;
+    scene.environmentRotation.y = y - 0.9;
+    scene.environmentRotation.z = z + 1;
   });
 
-  return <Environment files={env} environmentIntensity={1.6} />;
+  return <Environment files={env} environmentIntensity={2.0} />;
 };
