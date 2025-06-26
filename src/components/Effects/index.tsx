@@ -6,7 +6,7 @@ export const Effects = () => {
   return (
     <EffectComposer multisampling={8}>
       <></>
-      { <SMAA
+      {/* <SMAA
         predicationMode={PredicationMode.DISABLED}
         preset={SMAAPreset.ULTRA}
         edgeDetectionMode={EdgeDetectionMode.COLOR}
@@ -16,7 +16,7 @@ export const Effects = () => {
         blendFunction={BlendFunction.NORMAL}
         modulationOffset={0.15}
         radialModulation={false}
-      /> }
+      /> */}
     </EffectComposer>
   );
 };
