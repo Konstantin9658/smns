@@ -24,7 +24,6 @@ export const Siemens = () => {
     >
       <Preload all />
       <Effects />
-      {/* <StatsGl showPanel={1} className="panel" /> */}
       <Camera />
       <Env />
       <Suspense>
