@@ -1,4 +1,4 @@
-import model from "@/assets/models/reassembling_maps.glb";
+import model from "@/assets/models/scene_delta.glb";
 import { useCameraController } from "@/hooks/useCameraController";
 import { useGLTF } from "@react-three/drei";
 import { useRef } from "react";
