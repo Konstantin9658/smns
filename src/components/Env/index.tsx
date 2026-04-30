@@ -22,5 +22,5 @@ export const Env = () => {
     scene.environmentRotation.z = z + 1;
   });
 
-  return <Environment files={env} environmentIntensity={1.0} />;
+  return <Environment files={env} environmentIntensity={1.4} />;
 };
